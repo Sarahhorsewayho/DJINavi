@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5E90EE7C3AD77F5B8F6D8CF /* libPods-DJINavi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 481452D7C3BCC38107EB9CFA /* libPods-DJINavi.a */; };
+		E58ABE5020F8A2EE0096382B /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58ABE4F20F8A2EE0096382B /* SelectViewController.m */; };
+		E58ABE5620F9215A0096382B /* ZQCountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58ABE5520F9215A0096382B /* ZQCountDownView.m */; };
+		E58ABE5920F9426A0096382B /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58ABE5820F9426A0096382B /* LoginViewController.m */; };
+		E5C7442720F75372002471ED /* DJIUXSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7442620F75372002471ED /* DJIUXSDK.framework */; };
+		E5C7442E20F753CD002471ED /* VideoPreviewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7442D20F753B0002471ED /* VideoPreviewer.framework */; };
+		E5C7442F20F753CD002471ED /* VideoPreviewer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E5C7442D20F753B0002471ED /* VideoPreviewer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E5C7443520F756E2002471ED /* DefaultLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7443420F756E2002471ED /* DefaultLayoutViewController.m */; };
+		E5C7443820F75D6D002471ED /* PlaybackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7443720F75D6D002471ED /* PlaybackViewController.m */; };
+		E5C7443C20F75DB9002471ED /* DJIPlaybackMultiSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C7443A20F75DB9002471ED /* DJIPlaybackMultiSelectViewController.m */; };
+		E5C7443D20F75DB9002471ED /* DJIPlaybackMultiSelectViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5C7443B20F75DB9002471ED /* DJIPlaybackMultiSelectViewController_iPad.xib */; };
+		E5EC22E420F60D2900A3B229 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC22E320F60D2900A3B229 /* AppDelegate.m */; };
+		E5EC22EA20F60D2900A3B229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EC22E820F60D2900A3B229 /* Main.storyboard */; };
+		E5EC22EC20F60D2B00A3B229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5EC22EB20F60D2B00A3B229 /* Assets.xcassets */; };
+		E5EC22EF20F60D2B00A3B229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5EC22ED20F60D2B00A3B229 /* LaunchScreen.storyboard */; };
+		E5EC22F220F60D2B00A3B229 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC22F120F60D2B00A3B229 /* main.m */; };
+		E5EC22FC20F60D2B00A3B229 /* DJINaviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC22FB20F60D2B00A3B229 /* DJINaviTests.m */; };
+		E5EC230720F60D2B00A3B229 /* DJINaviUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC230620F60D2B00A3B229 /* DJINaviUITests.m */; };
+		E5EC231820F60F4100A3B229 /* DJIGSButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC231620F60F4100A3B229 /* DJIGSButtonViewController.m */; };
+		E5EC231920F60F4100A3B229 /* DJIGSButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5EC231720F60F4100A3B229 /* DJIGSButtonViewController.xib */; };
+		E5EC231C20F6114700A3B229 /* DJIMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC231B20F6114700A3B229 /* DJIMapController.m */; };
+		E5EC232020F6117B00A3B229 /* DJIWaypointConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC231E20F6117B00A3B229 /* DJIWaypointConfigViewController.m */; };
+		E5EC232120F6117B00A3B229 /* DJIWaypointConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5EC231F20F6117B00A3B229 /* DJIWaypointConfigViewController.xib */; };
+		E5EC232420F611D400A3B229 /* DJIAircraftAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC232320F611D400A3B229 /* DJIAircraftAnnotationView.m */; };
+		E5EC232720F6120600A3B229 /* DJIAircraftAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC232620F6120600A3B229 /* DJIAircraftAnnotation.m */; };
+		E5EC232A20F6124200A3B229 /* DemoUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC232920F6124200A3B229 /* DemoUtility.m */; };
+		E5EC232F20F612D900A3B229 /* DJIRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EC232E20F612D900A3B229 /* DJIRootViewController.m */; };
+		E5EC233120F6135500A3B229 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233020F6135500A3B229 /* AMapSearchKit.framework */; };
+		E5EC233320F6135F00A3B229 /* AMapLocationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233220F6135F00A3B229 /* AMapLocationKit.framework */; };
+		E5EC233520F6136900A3B229 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233420F6136900A3B229 /* AMapFoundationKit.framework */; };
+		E5EC233720F6137B00A3B229 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233620F6137A00A3B229 /* AdSupport.framework */; };
+		E5EC233920F6138200A3B229 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233820F6138200A3B229 /* Security.framework */; };
+		E5EC233B20F6138A00A3B229 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233A20F6138A00A3B229 /* SystemConfiguration.framework */; };
+		E5EC233D20F6139300A3B229 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233C20F6139300A3B229 /* CoreTelephony.framework */; };
+		E5EC233F20F6139F00A3B229 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC233E20F6139F00A3B229 /* CoreLocation.framework */; };
+		E5EC234120F613AB00A3B229 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234020F613AB00A3B229 /* QuartzCore.framework */; };
+		E5EC234320F613B500A3B229 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234220F613B500A3B229 /* CoreGraphics.framework */; };
+		E5EC234520F613C100A3B229 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234420F613C100A3B229 /* Foundation.framework */; };
+		E5EC234720F613CA00A3B229 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234620F613CA00A3B229 /* UIKit.framework */; };
+		E5EC234920F613D700A3B229 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234820F613D700A3B229 /* libstdc++.6.0.9.tbd */; };
+		E5EC234B20F613E000A3B229 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234A20F613E000A3B229 /* libz.tbd */; };
+		E5EC234D20F613E800A3B229 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234C20F613E800A3B229 /* libc++.tbd */; };
+		E5EC234F20F613F000A3B229 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC234E20F613F000A3B229 /* AVFoundation.framework */; };
+		E5EC235120F613F700A3B229 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC235020F613F700A3B229 /* JavaScriptCore.framework */; };
+		E5EC235520F6141200A3B229 /* DJISDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EC235420F6141200A3B229 /* DJISDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5C7442C20F753B0002471ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C7442820F753B0002471ED /* VideoPreviewer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 02A543FD1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+		E5C7443020F753CD002471ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5C7442820F753B0002471ED /* VideoPreviewer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 02A543FC1C3C51CB0083C11B;
+			remoteInfo = VideoPreviewer;
+		};
+		E5EC22F820F60D2B00A3B229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5EC22D720F60D2900A3B229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5EC22DE20F60D2900A3B229;
+			remoteInfo = DJINavi;
+		};
+		E5EC230320F60D2B00A3B229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5EC22D720F60D2900A3B229 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5EC22DE20F60D2900A3B229;
+			remoteInfo = DJINavi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E5C7443220F753CD002471ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E5C7442F20F753CD002471ED /* VideoPreviewer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		346F70AF7AF22FC536BDD96C /* Pods-DJINavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJINavi.release.xcconfig"; path = "Pods/Target Support Files/Pods-DJINavi/Pods-DJINavi.release.xcconfig"; sourceTree = "<group>"; };
+		481452D7C3BCC38107EB9CFA /* libPods-DJINavi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJINavi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBCB62186172A3D600E4C998 /* Pods-DJINavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJINavi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DJINavi/Pods-DJINavi.debug.xcconfig"; sourceTree = "<group>"; };
+		E58ABE4E20F8A2EE0096382B /* SelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		E58ABE4F20F8A2EE0096382B /* SelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		E58ABE5420F9215A0096382B /* ZQCountDownView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZQCountDownView.h; sourceTree = "<group>"; };
+		E58ABE5520F9215A0096382B /* ZQCountDownView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZQCountDownView.m; sourceTree = "<group>"; };
+		E58ABE5720F9426A0096382B /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E58ABE5820F9426A0096382B /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E5C7442620F75372002471ED /* DJIUXSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJIUXSDK.framework; path = "Pods/DJI-UXSDK-iOS/iOS_UXSDK/DJIUXSDK.framework"; sourceTree = "<group>"; };
+		E5C7442820F753B0002471ED /* VideoPreviewer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VideoPreviewer.xcodeproj; path = VideoPreviewer/VideoPreviewer.xcodeproj; sourceTree = "<group>"; };
+		E5C7443320F756E2002471ED /* DefaultLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultLayoutViewController.h; sourceTree = "<group>"; };
+		E5C7443420F756E2002471ED /* DefaultLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultLayoutViewController.m; sourceTree = "<group>"; };
+		E5C7443620F75D6D002471ED /* PlaybackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaybackViewController.h; sourceTree = "<group>"; };
+		E5C7443720F75D6D002471ED /* PlaybackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaybackViewController.m; sourceTree = "<group>"; };
+		E5C7443920F75DB9002471ED /* DJIPlaybackMultiSelectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJIPlaybackMultiSelectViewController.h; sourceTree = "<group>"; };
+		E5C7443A20F75DB9002471ED /* DJIPlaybackMultiSelectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIPlaybackMultiSelectViewController.m; sourceTree = "<group>"; };
+		E5C7443B20F75DB9002471ED /* DJIPlaybackMultiSelectViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJIPlaybackMultiSelectViewController_iPad.xib; sourceTree = "<group>"; };
+		E5EC22DF20F60D2900A3B229 /* DJINavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJINavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5EC22E220F60D2900A3B229 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5EC22E320F60D2900A3B229 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5EC22E920F60D2900A3B229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5EC22EB20F60D2B00A3B229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5EC22EE20F60D2B00A3B229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5EC22F020F60D2B00A3B229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EC22F120F60D2B00A3B229 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5EC22F720F60D2B00A3B229 /* DJINaviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJINaviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5EC22FB20F60D2B00A3B229 /* DJINaviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJINaviTests.m; sourceTree = "<group>"; };
+		E5EC22FD20F60D2B00A3B229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EC230220F60D2B00A3B229 /* DJINaviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJINaviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5EC230620F60D2B00A3B229 /* DJINaviUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJINaviUITests.m; sourceTree = "<group>"; };
+		E5EC230820F60D2B00A3B229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EC231420F60E2400A3B229 /* APIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIKey.h; sourceTree = "<group>"; };
+		E5EC231520F60F4100A3B229 /* DJIGSButtonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJIGSButtonViewController.h; sourceTree = "<group>"; };
+		E5EC231620F60F4100A3B229 /* DJIGSButtonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIGSButtonViewController.m; sourceTree = "<group>"; };
+		E5EC231720F60F4100A3B229 /* DJIGSButtonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJIGSButtonViewController.xib; sourceTree = "<group>"; };
+		E5EC231A20F6114700A3B229 /* DJIMapController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJIMapController.h; sourceTree = "<group>"; };
+		E5EC231B20F6114700A3B229 /* DJIMapController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIMapController.m; sourceTree = "<group>"; };
+		E5EC231D20F6117B00A3B229 /* DJIWaypointConfigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJIWaypointConfigViewController.h; sourceTree = "<group>"; };
+		E5EC231E20F6117B00A3B229 /* DJIWaypointConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIWaypointConfigViewController.m; sourceTree = "<group>"; };
+		E5EC231F20F6117B00A3B229 /* DJIWaypointConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DJIWaypointConfigViewController.xib; sourceTree = "<group>"; };
+		E5EC232220F611D400A3B229 /* DJIAircraftAnnotationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJIAircraftAnnotationView.h; sourceTree = "<group>"; };
+		E5EC232320F611D400A3B229 /* DJIAircraftAnnotationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIAircraftAnnotationView.m; sourceTree = "<group>"; };
+		E5EC232520F6120600A3B229 /* DJIAircraftAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJIAircraftAnnotation.h; sourceTree = "<group>"; };
+		E5EC232620F6120600A3B229 /* DJIAircraftAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIAircraftAnnotation.m; sourceTree = "<group>"; };
+		E5EC232820F6124200A3B229 /* DemoUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoUtility.h; sourceTree = "<group>"; };
+		E5EC232920F6124200A3B229 /* DemoUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoUtility.m; sourceTree = "<group>"; };
+		E5EC232B20F6128200A3B229 /* DJINavi-pch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DJINavi-pch.pch"; sourceTree = "<group>"; };
+		E5EC232C20F612B200A3B229 /* RoutePathDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoutePathDetailViewController.h; sourceTree = "<group>"; };
+		E5EC232D20F612D900A3B229 /* DJIRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJIRootViewController.h; sourceTree = "<group>"; };
+		E5EC232E20F612D900A3B229 /* DJIRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJIRootViewController.m; sourceTree = "<group>"; };
+		E5EC233020F6135500A3B229 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapSearchKit.framework; path = Pods/AMapSearch/AMapSearchKit.framework; sourceTree = "<group>"; };
+		E5EC233220F6135F00A3B229 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapLocationKit.framework; path = Pods/AMapLocation/AMapLocationKit.framework; sourceTree = "<group>"; };
+		E5EC233420F6136900A3B229 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AMapFoundationKit.framework; path = Pods/AMapFoundation/AMapFoundationKit.framework; sourceTree = "<group>"; };
+		E5EC233620F6137A00A3B229 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E5EC233820F6138200A3B229 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E5EC233A20F6138A00A3B229 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E5EC233C20F6139300A3B229 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E5EC233E20F6139F00A3B229 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E5EC234020F613AB00A3B229 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E5EC234220F613B500A3B229 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E5EC234420F613C100A3B229 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5EC234620F613CA00A3B229 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E5EC234820F613D700A3B229 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		E5EC234A20F613E000A3B229 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E5EC234C20F613E800A3B229 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		E5EC234E20F613F000A3B229 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E5EC235020F613F700A3B229 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		E5EC235420F6141200A3B229 /* DJISDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DJISDK.framework; path = "Pods/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5EC22DC20F60D2900A3B229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C7442720F75372002471ED /* DJIUXSDK.framework in Frameworks */,
+				E5EC235520F6141200A3B229 /* DJISDK.framework in Frameworks */,
+				E5EC235120F613F700A3B229 /* JavaScriptCore.framework in Frameworks */,
+				E5EC234F20F613F000A3B229 /* AVFoundation.framework in Frameworks */,
+				E5EC234D20F613E800A3B229 /* libc++.tbd in Frameworks */,
+				E5EC234B20F613E000A3B229 /* libz.tbd in Frameworks */,
+				E5EC234920F613D700A3B229 /* libstdc++.6.0.9.tbd in Frameworks */,
+				E5EC234720F613CA00A3B229 /* UIKit.framework in Frameworks */,
+				E5EC234520F613C100A3B229 /* Foundation.framework in Frameworks */,
+				E5EC234320F613B500A3B229 /* CoreGraphics.framework in Frameworks */,
+				E5EC234120F613AB00A3B229 /* QuartzCore.framework in Frameworks */,
+				E5EC233F20F6139F00A3B229 /* CoreLocation.framework in Frameworks */,
+				E5EC233D20F6139300A3B229 /* CoreTelephony.framework in Frameworks */,
+				E5EC233B20F6138A00A3B229 /* SystemConfiguration.framework in Frameworks */,
+				E5EC233920F6138200A3B229 /* Security.framework in Frameworks */,
+				E5EC233720F6137B00A3B229 /* AdSupport.framework in Frameworks */,
+				E5EC233520F6136900A3B229 /* AMapFoundationKit.framework in Frameworks */,
+				E5EC233320F6135F00A3B229 /* AMapLocationKit.framework in Frameworks */,
+				E5EC233120F6135500A3B229 /* AMapSearchKit.framework in Frameworks */,
+				A5E90EE7C3AD77F5B8F6D8CF /* libPods-DJINavi.a in Frameworks */,
+				E5C7442E20F753CD002471ED /* VideoPreviewer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EC22F420F60D2B00A3B229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EC22FF20F60D2B00A3B229 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60DDFE71B19705911F4E61A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7442820F753B0002471ED /* VideoPreviewer.xcodeproj */,
+				E5C7442620F75372002471ED /* DJIUXSDK.framework */,
+				E5EC235420F6141200A3B229 /* DJISDK.framework */,
+				E5EC235020F613F700A3B229 /* JavaScriptCore.framework */,
+				E5EC234E20F613F000A3B229 /* AVFoundation.framework */,
+				E5EC234C20F613E800A3B229 /* libc++.tbd */,
+				E5EC234A20F613E000A3B229 /* libz.tbd */,
+				E5EC234820F613D700A3B229 /* libstdc++.6.0.9.tbd */,
+				E5EC234620F613CA00A3B229 /* UIKit.framework */,
+				E5EC234420F613C100A3B229 /* Foundation.framework */,
+				E5EC234220F613B500A3B229 /* CoreGraphics.framework */,
+				E5EC234020F613AB00A3B229 /* QuartzCore.framework */,
+				E5EC233E20F6139F00A3B229 /* CoreLocation.framework */,
+				E5EC233C20F6139300A3B229 /* CoreTelephony.framework */,
+				E5EC233A20F6138A00A3B229 /* SystemConfiguration.framework */,
+				E5EC233820F6138200A3B229 /* Security.framework */,
+				E5EC233620F6137A00A3B229 /* AdSupport.framework */,
+				E5EC233420F6136900A3B229 /* AMapFoundationKit.framework */,
+				E5EC233220F6135F00A3B229 /* AMapLocationKit.framework */,
+				E5EC233020F6135500A3B229 /* AMapSearchKit.framework */,
+				481452D7C3BCC38107EB9CFA /* libPods-DJINavi.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5C7442920F753B0002471ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5C7442D20F753B0002471ED /* VideoPreviewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5EC22D620F60D2900A3B229 = {
+			isa = PBXGroup;
+			children = (
+				E5EC22E120F60D2900A3B229 /* DJINavi */,
+				E5EC22FA20F60D2B00A3B229 /* DJINaviTests */,
+				E5EC230520F60D2B00A3B229 /* DJINaviUITests */,
+				E5EC22E020F60D2900A3B229 /* Products */,
+				F49BFA12DE3EED9BCA5251D5 /* Pods */,
+				60DDFE71B19705911F4E61A6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5EC22E020F60D2900A3B229 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC22DF20F60D2900A3B229 /* DJINavi.app */,
+				E5EC22F720F60D2B00A3B229 /* DJINaviTests.xctest */,
+				E5EC230220F60D2B00A3B229 /* DJINaviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5EC22E120F60D2900A3B229 /* DJINavi */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC22E220F60D2900A3B229 /* AppDelegate.h */,
+				E5EC22E320F60D2900A3B229 /* AppDelegate.m */,
+				E5EC22E820F60D2900A3B229 /* Main.storyboard */,
+				E5EC22EB20F60D2B00A3B229 /* Assets.xcassets */,
+				E5EC22ED20F60D2B00A3B229 /* LaunchScreen.storyboard */,
+				E5EC22F020F60D2B00A3B229 /* Info.plist */,
+				E5EC22F120F60D2B00A3B229 /* main.m */,
+				E5EC231420F60E2400A3B229 /* APIKey.h */,
+				E5EC231520F60F4100A3B229 /* DJIGSButtonViewController.h */,
+				E5EC231620F60F4100A3B229 /* DJIGSButtonViewController.m */,
+				E5EC231720F60F4100A3B229 /* DJIGSButtonViewController.xib */,
+				E5EC231A20F6114700A3B229 /* DJIMapController.h */,
+				E5EC231B20F6114700A3B229 /* DJIMapController.m */,
+				E5EC231D20F6117B00A3B229 /* DJIWaypointConfigViewController.h */,
+				E5EC231E20F6117B00A3B229 /* DJIWaypointConfigViewController.m */,
+				E5EC231F20F6117B00A3B229 /* DJIWaypointConfigViewController.xib */,
+				E5EC232220F611D400A3B229 /* DJIAircraftAnnotationView.h */,
+				E5EC232320F611D400A3B229 /* DJIAircraftAnnotationView.m */,
+				E5EC232520F6120600A3B229 /* DJIAircraftAnnotation.h */,
+				E5EC232620F6120600A3B229 /* DJIAircraftAnnotation.m */,
+				E5EC232820F6124200A3B229 /* DemoUtility.h */,
+				E5EC232920F6124200A3B229 /* DemoUtility.m */,
+				E5EC232B20F6128200A3B229 /* DJINavi-pch.pch */,
+				E5EC232C20F612B200A3B229 /* RoutePathDetailViewController.h */,
+				E5EC232D20F612D900A3B229 /* DJIRootViewController.h */,
+				E5EC232E20F612D900A3B229 /* DJIRootViewController.m */,
+				E5C7443320F756E2002471ED /* DefaultLayoutViewController.h */,
+				E5C7443420F756E2002471ED /* DefaultLayoutViewController.m */,
+				E5C7443620F75D6D002471ED /* PlaybackViewController.h */,
+				E5C7443720F75D6D002471ED /* PlaybackViewController.m */,
+				E5C7443920F75DB9002471ED /* DJIPlaybackMultiSelectViewController.h */,
+				E5C7443A20F75DB9002471ED /* DJIPlaybackMultiSelectViewController.m */,
+				E5C7443B20F75DB9002471ED /* DJIPlaybackMultiSelectViewController_iPad.xib */,
+				E58ABE4E20F8A2EE0096382B /* SelectViewController.h */,
+				E58ABE4F20F8A2EE0096382B /* SelectViewController.m */,
+				E58ABE5420F9215A0096382B /* ZQCountDownView.h */,
+				E58ABE5520F9215A0096382B /* ZQCountDownView.m */,
+				E58ABE5720F9426A0096382B /* LoginViewController.h */,
+				E58ABE5820F9426A0096382B /* LoginViewController.m */,
+			);
+			path = DJINavi;
+			sourceTree = "<group>";
+		};
+		E5EC22FA20F60D2B00A3B229 /* DJINaviTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC22FB20F60D2B00A3B229 /* DJINaviTests.m */,
+				E5EC22FD20F60D2B00A3B229 /* Info.plist */,
+			);
+			path = DJINaviTests;
+			sourceTree = "<group>";
+		};
+		E5EC230520F60D2B00A3B229 /* DJINaviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC230620F60D2B00A3B229 /* DJINaviUITests.m */,
+				E5EC230820F60D2B00A3B229 /* Info.plist */,
+			);
+			path = DJINaviUITests;
+			sourceTree = "<group>";
+		};
+		F49BFA12DE3EED9BCA5251D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBCB62186172A3D600E4C998 /* Pods-DJINavi.debug.xcconfig */,
+				346F70AF7AF22FC536BDD96C /* Pods-DJINavi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5EC22DE20F60D2900A3B229 /* DJINavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5EC230B20F60D2B00A3B229 /* Build configuration list for PBXNativeTarget "DJINavi" */;
+			buildPhases = (
+				58F3DAACB66E683EEB50BAF1 /* [CP] Check Pods Manifest.lock */,
+				E5EC22DB20F60D2900A3B229 /* Sources */,
+				E5EC22DC20F60D2900A3B229 /* Frameworks */,
+				E5EC22DD20F60D2900A3B229 /* Resources */,
+				0711FD3B6169DC0D6EC6896B /* [CP] Embed Pods Frameworks */,
+				E5C7443220F753CD002471ED /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5C7443120F753CD002471ED /* PBXTargetDependency */,
+			);
+			name = DJINavi;
+			productName = DJINavi;
+			productReference = E5EC22DF20F60D2900A3B229 /* DJINavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5EC22F620F60D2B00A3B229 /* DJINaviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5EC230E20F60D2B00A3B229 /* Build configuration list for PBXNativeTarget "DJINaviTests" */;
+			buildPhases = (
+				E5EC22F320F60D2B00A3B229 /* Sources */,
+				E5EC22F420F60D2B00A3B229 /* Frameworks */,
+				E5EC22F520F60D2B00A3B229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5EC22F920F60D2B00A3B229 /* PBXTargetDependency */,
+			);
+			name = DJINaviTests;
+			productName = DJINaviTests;
+			productReference = E5EC22F720F60D2B00A3B229 /* DJINaviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E5EC230120F60D2B00A3B229 /* DJINaviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5EC231120F60D2B00A3B229 /* Build configuration list for PBXNativeTarget "DJINaviUITests" */;
+			buildPhases = (
+				E5EC22FE20F60D2B00A3B229 /* Sources */,
+				E5EC22FF20F60D2B00A3B229 /* Frameworks */,
+				E5EC230020F60D2B00A3B229 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5EC230420F60D2B00A3B229 /* PBXTargetDependency */,
+			);
+			name = DJINaviUITests;
+			productName = DJINaviUITests;
+			productReference = E5EC230220F60D2B00A3B229 /* DJINaviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5EC22D720F60D2900A3B229 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "何彦男";
+				TargetAttributes = {
+					E5EC22DE20F60D2900A3B229 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E5EC22F620F60D2B00A3B229 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E5EC22DE20F60D2900A3B229;
+					};
+					E5EC230120F60D2B00A3B229 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E5EC22DE20F60D2900A3B229;
+					};
+				};
+			};
+			buildConfigurationList = E5EC22DA20F60D2900A3B229 /* Build configuration list for PBXProject "DJINavi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5EC22D620F60D2900A3B229;
+			productRefGroup = E5EC22E020F60D2900A3B229 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E5C7442920F753B0002471ED /* Products */;
+					ProjectRef = E5C7442820F753B0002471ED /* VideoPreviewer.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E5EC22DE20F60D2900A3B229 /* DJINavi */,
+				E5EC22F620F60D2B00A3B229 /* DJINaviTests */,
+				E5EC230120F60D2B00A3B229 /* DJINaviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E5C7442D20F753B0002471ED /* VideoPreviewer.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = VideoPreviewer.framework;
+			remoteRef = E5C7442C20F753B0002471ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5EC22DD20F60D2900A3B229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EC22EF20F60D2B00A3B229 /* LaunchScreen.storyboard in Resources */,
+				E5C7443D20F75DB9002471ED /* DJIPlaybackMultiSelectViewController_iPad.xib in Resources */,
+				E5EC232120F6117B00A3B229 /* DJIWaypointConfigViewController.xib in Resources */,
+				E5EC22EC20F60D2B00A3B229 /* Assets.xcassets in Resources */,
+				E5EC231920F60F4100A3B229 /* DJIGSButtonViewController.xib in Resources */,
+				E5EC22EA20F60D2900A3B229 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EC22F520F60D2B00A3B229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EC230020F60D2B00A3B229 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0711FD3B6169DC0D6EC6896B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DJINavi/Pods-DJINavi-frameworks.sh",
+				"${PODS_ROOT}/DJI-SDK-iOS/iOS_Mobile_SDK/DJISDK.framework",
+				"${PODS_ROOT}/DJI-UXSDK-iOS/iOS_UXSDK/DJIUXSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJISDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DJIUXSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DJINavi/Pods-DJINavi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F3DAACB66E683EEB50BAF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJINavi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5EC22DB20F60D2900A3B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EC232A20F6124200A3B229 /* DemoUtility.m in Sources */,
+				E5C7443C20F75DB9002471ED /* DJIPlaybackMultiSelectViewController.m in Sources */,
+				E5EC232720F6120600A3B229 /* DJIAircraftAnnotation.m in Sources */,
+				E5C7443820F75D6D002471ED /* PlaybackViewController.m in Sources */,
+				E5C7443520F756E2002471ED /* DefaultLayoutViewController.m in Sources */,
+				E5EC231C20F6114700A3B229 /* DJIMapController.m in Sources */,
+				E5EC232F20F612D900A3B229 /* DJIRootViewController.m in Sources */,
+				E5EC232420F611D400A3B229 /* DJIAircraftAnnotationView.m in Sources */,
+				E5EC22F220F60D2B00A3B229 /* main.m in Sources */,
+				E58ABE5020F8A2EE0096382B /* SelectViewController.m in Sources */,
+				E5EC232020F6117B00A3B229 /* DJIWaypointConfigViewController.m in Sources */,
+				E5EC231820F60F4100A3B229 /* DJIGSButtonViewController.m in Sources */,
+				E58ABE5620F9215A0096382B /* ZQCountDownView.m in Sources */,
+				E5EC22E420F60D2900A3B229 /* AppDelegate.m in Sources */,
+				E58ABE5920F9426A0096382B /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EC22F320F60D2B00A3B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EC22FC20F60D2B00A3B229 /* DJINaviTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5EC22FE20F60D2B00A3B229 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EC230720F60D2B00A3B229 /* DJINaviUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5C7443120F753CD002471ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VideoPreviewer;
+			targetProxy = E5C7443020F753CD002471ED /* PBXContainerItemProxy */;
+		};
+		E5EC22F920F60D2B00A3B229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5EC22DE20F60D2900A3B229 /* DJINavi */;
+			targetProxy = E5EC22F820F60D2B00A3B229 /* PBXContainerItemProxy */;
+		};
+		E5EC230420F60D2B00A3B229 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5EC22DE20F60D2900A3B229 /* DJINavi */;
+			targetProxy = E5EC230320F60D2B00A3B229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5EC22E820F60D2900A3B229 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5EC22E920F60D2900A3B229 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5EC22ED20F60D2B00A3B229 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5EC22EE20F60D2B00A3B229 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5EC230920F60D2B00A3B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E5EC230A20F60D2B00A3B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5EC230C20F60D2B00A3B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBCB62186172A3D600E4C998 /* Pods-DJINavi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CVF9RRV8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AMapSearch",
+					"$(PROJECT_DIR)/Pods/AMapLocation",
+					"$(PROJECT_DIR)/Pods/AMapFoundation",
+					"$(PROJECT_DIR)/Pods/DJI-SDK-iOS/iOS_Mobile_SDK",
+					"$(PROJECT_DIR)/Pods/DJI-UXSDK-iOS/iOS_UXSDK",
+				);
+				GCC_PREFIX_HEADER = "/Users/Sarahhorsewayho/Documents/Bulls/DJINavi/DJINavi/DJINavi-pch.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
+				INFOPLIST_FILE = DJINavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyn.DJINavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5EC230D20F60D2B00A3B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 346F70AF7AF22FC536BDD96C /* Pods-DJINavi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CVF9RRV8;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/AMapSearch",
+					"$(PROJECT_DIR)/Pods/AMapLocation",
+					"$(PROJECT_DIR)/Pods/AMapFoundation",
+					"$(PROJECT_DIR)/Pods/DJI-SDK-iOS/iOS_Mobile_SDK",
+					"$(PROJECT_DIR)/Pods/DJI-UXSDK-iOS/iOS_UXSDK",
+				);
+				GCC_PREFIX_HEADER = "/Users/Sarahhorsewayho/Documents/Bulls/DJINavi/DJINavi/DJINavi-pch.pch";
+				HEADER_SEARCH_PATHS = "\"${PODS_ROOT}/Headers/Public\"";
+				INFOPLIST_FILE = DJINavi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyn.DJINavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E5EC230F20F60D2B00A3B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CVF9RRV8;
+				INFOPLIST_FILE = DJINaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyn.DJINaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJINavi.app/DJINavi";
+			};
+			name = Debug;
+		};
+		E5EC231020F60D2B00A3B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CVF9RRV8;
+				INFOPLIST_FILE = DJINaviTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyn.DJINaviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJINavi.app/DJINavi";
+			};
+			name = Release;
+		};
+		E5EC231220F60D2B00A3B229 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CVF9RRV8;
+				INFOPLIST_FILE = DJINaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyn.DJINaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJINavi;
+			};
+			name = Debug;
+		};
+		E5EC231320F60D2B00A3B229 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5CVF9RRV8;
+				INFOPLIST_FILE = DJINaviUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hyn.DJINaviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJINavi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5EC22DA20F60D2900A3B229 /* Build configuration list for PBXProject "DJINavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EC230920F60D2B00A3B229 /* Debug */,
+				E5EC230A20F60D2B00A3B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5EC230B20F60D2B00A3B229 /* Build configuration list for PBXNativeTarget "DJINavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EC230C20F60D2B00A3B229 /* Debug */,
+				E5EC230D20F60D2B00A3B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5EC230E20F60D2B00A3B229 /* Build configuration list for PBXNativeTarget "DJINaviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EC230F20F60D2B00A3B229 /* Debug */,
+				E5EC231020F60D2B00A3B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5EC231120F60D2B00A3B229 /* Build configuration list for PBXNativeTarget "DJINaviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EC231220F60D2B00A3B229 /* Debug */,
+				E5EC231320F60D2B00A3B229 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5EC22D720F60D2900A3B229 /* Project object */;
+}
